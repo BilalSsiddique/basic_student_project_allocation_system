@@ -4,7 +4,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.7
 dj-database-url==2.1.0
-Django==4.2.1
+django==4.2.1
 django-debug-toolbar==4.1.0
 importlib-metadata==5.1.0
 psycopg2==2.9.3
