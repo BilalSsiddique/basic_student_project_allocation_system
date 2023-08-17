@@ -16,7 +16,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="{% url 'myapp:home' %}">STUDENT PROJECT ALLOCATION SYSTEM</a>
+        <a class="navbar-brand" href="{% url 'myapp:home' %}"
+          >STUDENT PROJECT ALLOCATION SYSTEM</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -70,11 +72,13 @@
       </div>
     </nav>
 
-    <div class="container text-center mt-5">
+    <div class="table-responsive container text-center mt-5">
       <h2 class="text-light bg-primary shadow-lg p-3 mb-3 rounded">
         ALL STUDENTS
       </h2>
-      <table class="border-dark border table table-striped">
+      <table
+        class="border-dark border table table-striped table-hover table-sm"
+      >
         <tr>
           <th>ID</th>
           <th>Name</th>
